@@ -1,7 +1,18 @@
-.DS_Store
-node_modules
-nwsnapshot
-node-webkit*.zip
-credits.html
-node-webkit.app
-npm-debug.log
+# Packages
+node_modules/
+
+# Log files
+logs/
+*.log
+npm-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+
+# Miscellaneous
+.vscode/
+.tmp/
+build/
+include/
